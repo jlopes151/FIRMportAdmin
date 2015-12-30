@@ -1,0 +1,401 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/src/!svn/ver/10769/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model
+END
+FrmFndAndClsAgre.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FrmFndAndClsAgre.java
+END
+EventTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/EventTypes.java
+END
+CntctMgmtCoXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/src/!svn/ver/9311/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/CntctMgmtCoXref.java
+END
+Alert.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/src/!svn/ver/10490/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/Alert.java
+END
+FirmBrokeragePlatformXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmBrokeragePlatformXref.java
+END
+ShareHldrSvcMdlTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/ShareHldrSvcMdlTypes.java
+END
+FirmOmnibusTradProcXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmOmnibusTradProcXref.java
+END
+FirmPricingSourceXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/src/!svn/ver/10765/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmPricingSourceXref.java
+END
+TA2000SubFirmRelationship.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/src/!svn/ver/10871/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/TA2000SubFirmRelationship.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/src/!svn/ver/10490/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/Event.java
+END
+FirmTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmTypes.java
+END
+FirmSettlementTypXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmSettlementTypXref.java
+END
+MgmtCo.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/MgmtCo.java
+END
+FirmAndMgmtCo.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/src/!svn/ver/9965/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmAndMgmtCo.java
+END
+Firm.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/src/!svn/ver/10729/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/Firm.java
+END
+Branch.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/src/!svn/ver/9397/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/Branch.java
+END
+FirmShareholderServicingModelXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmShareholderServicingModelXref.java
+END
+TA2000SubFirmType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/src/!svn/ver/10765/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/TA2000SubFirmType.java
+END
+FirmNsccMemberNumXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/src/!svn/ver/10734/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmNsccMemberNumXref.java
+END
+FirmFirmTypeXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/src/!svn/ver/10729/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmFirmTypeXref.java
+END
+FundAndClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FundAndClass.java
+END
+NetworkMatrixLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/src/!svn/ver/10004/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/NetworkMatrixLevel.java
+END
+PosFileSched.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/src/!svn/ver/9403/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/PosFileSched.java
+END
+MgmtCoTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/MgmtCoTypes.java
+END
+SearchValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/src/!svn/ver/9909/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/SearchValidator.java
+END
+CntctMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/src/!svn/ver/9311/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/CntctMethod.java
+END
+FirmSrch.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmSrch.java
+END
+DataTransMthdTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/DataTransMthdTypes.java
+END
+FirmDataTransMethodXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmDataTransMethodXref.java
+END
+Rep.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/Rep.java
+END
+StateDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/StateDD.java
+END
+Transmission.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/src/!svn/ver/9397/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/Transmission.java
+END
+AlertTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/AlertTypes.java
+END
+SubAcctPltfrmTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/SubAcctPltfrmTypes.java
+END
+ViewCntctMgmtCoXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/src/!svn/ver/9311/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/ViewCntctMgmtCoXref.java
+END
+FirmClearingFirmXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmClearingFirmXref.java
+END
+StateTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/StateTypes.java
+END
+Agreement.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/src/!svn/ver/9397/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/Agreement.java
+END
+ViewCntctMgmtCoGrpXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/src/!svn/ver/9311/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/ViewCntctMgmtCoGrpXref.java
+END
+FirmNsccMemberNum.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/src/!svn/ver/10729/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmNsccMemberNum.java
+END
+CntctType.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/src/!svn/ver/9311/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/CntctType.java
+END
+OmnibusTradeProcessTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/OmnibusTradeProcessTypes.java
+END
+AgreeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/src/!svn/ver/9403/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/AgreeType.java
+END
+FirmNsccNetworkAlphaCd.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmNsccNetworkAlphaCd.java
+END
+FirmMgmtCoHist.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmMgmtCoHist.java
+END
+OperationalReview.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/OperationalReview.java
+END
+AlertMgmtCoXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/src/!svn/ver/9097/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/AlertMgmtCoXref.java
+END
+MFProfileII.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/MFProfileII.java
+END
+BrokeragePlatform.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/BrokeragePlatform.java
+END
+BatchTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/BatchTypes.java
+END
+Fields.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/src/!svn/ver/9311/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/Fields.java
+END
+SettlementTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/SettlementTypes.java
+END
+PricingSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/src/!svn/ver/10765/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/PricingSource.java
+END
+FirmSubAcctPltfrmXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/src/!svn/ver/10672/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FirmSubAcctPltfrmXref.java
+END
+FrmMgmtCoTrstFrm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/src/!svn/ver/9661/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FrmMgmtCoTrstFrm.java
+END
+Contacts.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/src/!svn/ver/9698/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/Contacts.java
+END
+viewFirmMgmtCoTrustFirm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/src/!svn/ver/10121/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/viewFirmMgmtCoTrustFirm.java
+END
+TA2kSFRDlgSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/src/!svn/ver/10871/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/TA2kSFRDlgSet.java
+END
+CntctMgmtCoGrpXref.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/src/!svn/ver/9909/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/CntctMgmtCoGrpXref.java
+END
+FrmMgmtCoTrstTpaFrm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/src/!svn/ver/9661/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/FrmMgmtCoTrstTpaFrm.java
+END
+OmnibusDistMdlTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/src/!svn/ver/8966/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/OmnibusDistMdlTypes.java
+END
+CntctGrp.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/src/!svn/ver/9311/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/CntctGrp.java
+END
+TransFileType.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/src/!svn/ver/9403/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/TransFileType.java
+END
+Fund.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/src/!svn/ver/8986/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/Fund.java
+END
+TA2000SubFirm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/src/!svn/ver/10843/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/TA2000SubFirm.java
+END
+MExceptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/src/!svn/ver/9307/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/model/MExceptions.java
+END

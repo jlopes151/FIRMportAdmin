@@ -1,0 +1,247 @@
+package com.bfds.app.fia.mgr.web.controller;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+//import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bfds.app.fia.mgr.service.impl.RepServiceImpl;
+import com.bfds.app.fia.mgr.service.impl.UtilServiceImpl;
+import com.bfds.app.fia.mgr.annotations.Log4j;
+import com.bfds.app.fia.mgr.model.AgreeType;
+import com.bfds.app.fia.mgr.model.BatchTypes;
+import com.bfds.app.fia.mgr.model.BrokeragePlatform;
+import com.bfds.app.fia.mgr.model.DataTransMthdTypes;
+import com.bfds.app.fia.mgr.model.Fields;
+import com.bfds.app.fia.mgr.model.Firm;
+import com.bfds.app.fia.mgr.model.FirmTypes;
+import com.bfds.app.fia.mgr.model.MFProfileII;
+import com.bfds.app.fia.mgr.model.MgmtCo;
+import com.bfds.app.fia.mgr.model.MgmtCoTypes;
+import com.bfds.app.fia.mgr.model.NetworkMatrixLevel;
+import com.bfds.app.fia.mgr.model.OmnibusDistMdlTypes;
+import com.bfds.app.fia.mgr.model.OmnibusTradeProcessTypes;
+import com.bfds.app.fia.mgr.model.OperationalReview;
+import com.bfds.app.fia.mgr.model.PosFileSched;
+import com.bfds.app.fia.mgr.model.PricingSource;
+import com.bfds.app.fia.mgr.model.Rep;
+import com.bfds.app.fia.mgr.model.SearchValidator;
+import com.bfds.app.fia.mgr.model.SettlementTypes;
+import com.bfds.app.fia.mgr.model.ShareHldrSvcMdlTypes;
+import com.bfds.app.fia.mgr.model.StateTypes;
+import com.bfds.app.fia.mgr.model.SubAcctPltfrmTypes;
+import com.bfds.app.fia.mgr.model.TA2000SubFirmType;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+@Controller
+public class UtilController {
+	
+	@Log4j
+	private static Logger logger;
+
+	private final UtilServiceImpl utilserviceimpl;
+	SearchValidator sv;
+	
+	@Autowired
+	public UtilController(UtilServiceImpl utilserviceimpl){
+		this.utilserviceimpl = utilserviceimpl;
+	}
+	
+	@RequestMapping("/getStates" )
+	@ResponseBody
+	public List<StateTypes> callGetStates(){
+		List<StateTypes> states = utilserviceimpl.getStates(); 
+		return states;
+	}
+
+	/*
+	 * getting data from the firm_type_t table
+	 */
+	@RequestMapping("/getFirmTypes" )
+	@ResponseBody
+	public List<FirmTypes> callGetFirmTypes(){
+		List<FirmTypes> FIRMtypes = utilserviceimpl.getFirmTypes(); 
+		return FIRMtypes;
+	}
+
+	@RequestMapping("/getOmnibusDistMdl" )
+	@ResponseBody
+	public List<OmnibusDistMdlTypes> callGetOmnibusDistMdl(){
+		List<OmnibusDistMdlTypes> omniDistMdl = utilserviceimpl.getOmnibusDistModel(); 
+		return omniDistMdl;
+	}
+
+	@RequestMapping("/getDataTransMthd" )
+	@ResponseBody
+	public List<DataTransMthdTypes> callGetDataTransMthd(){
+		List<DataTransMthdTypes> datatransmthd = utilserviceimpl.getDataTrnsMthd(); 
+		return datatransmthd;
+	}
+
+	/*
+	 * getting the Systems (Firms)  
+	 */
+	@RequestMapping("/getSystem" )
+	@ResponseBody
+	public List<Firm> callShowAllFirm(){		
+
+		List<Firm> firms = utilserviceimpl.doFindAllFirms(); 
+		
+		return firms;
+	}
+	
+	/*
+	 * getting the company (Mgmt_Co)
+	 */
+	@RequestMapping("/getCompany" )
+	@ResponseBody
+	public List<MgmtCo> callShowAllMgmtCo(){		
+
+		List<MgmtCo> mgmtco = utilserviceimpl.doFindAllMgmtCo(); 
+		
+		return mgmtco;
+	}
+	
+	/*
+	 * 
+	 */
+	@RequestMapping("/doFirmSrch")
+	@ResponseBody
+	public SearchValidator callDoFirmSrch(HttpServletRequest request) {
+
+		HttpSession session = request.getSession();
+		String short_nm = (String) request.getParameter("short_nm");
+		List<Firm> firms = this.utilserviceimpl.doFirmSrch(short_nm);
+		sv = new SearchValidator();
+
+		if (firms.size() > 0) {
+			session.setAttribute("FIRM_ID", Integer.toString(firms.get(0).getFirm_id()));
+			sv.setTrue_false(true);
+		} else {
+			sv.setTrue_false(false);
+		}
+
+		return sv;
+	}
+
+	/*
+	 * getting the table fields
+	 */
+	@RequestMapping("/getFields" )
+	@ResponseBody
+	public List<Fields> callGetFields(){		
+
+		List<Fields> fields = utilserviceimpl.getFields(); 
+		
+		return fields;
+	}
+	
+	/*
+	 * getting data from the management_company_t table
+	 */
+	@RequestMapping("/getMgmtCoMthd" )
+	@ResponseBody
+	public List<MgmtCoTypes> callMgmtCoMthd(){
+		List<MgmtCoTypes> mgmtcomthd = utilserviceimpl.getMgmtCoMthd(); 
+		return mgmtcomthd;
+	}
+
+	@RequestMapping("/getBatchType" )
+	@ResponseBody
+	public List<BatchTypes> callBatchType(){
+		List<BatchTypes> batchtype = utilserviceimpl.getBatchType(); 
+		return batchtype;
+	}
+
+	@RequestMapping("/getOmnibusTradProc" )
+	@ResponseBody
+	public List<OmnibusTradeProcessTypes> callOmnibusTradeProcedure(){
+		List<OmnibusTradeProcessTypes> otpdd = utilserviceimpl.getOmnibusTradeProcess(); 
+		return otpdd;
+	}
+
+	@RequestMapping("/getSettlementType" )
+	@ResponseBody
+	public List<SettlementTypes> callSettlementType(){
+		List<SettlementTypes> stdd = utilserviceimpl.getSettlementType(); 
+		return stdd;
+	}
+
+	@RequestMapping("/getShareHldrSvcMdl" )
+	@ResponseBody
+	public List<ShareHldrSvcMdlTypes> callShareHldrSvcMdl(){
+		List<ShareHldrSvcMdlTypes> shsmdd = utilserviceimpl.getShareHldrSvcMdl(); 
+		return shsmdd;
+	}
+
+	@RequestMapping("/getSubacctPltfrmCD" )
+	@ResponseBody
+	public List<SubAcctPltfrmTypes> callSubacctPltfrmCD(){
+		List<SubAcctPltfrmTypes> shsmdd = utilserviceimpl.getSubAcctPltfrm();
+		return shsmdd;
+	}
+
+	@RequestMapping("/getAgreeTypes" )
+	@ResponseBody
+	public List<AgreeType> callAgreeTypes(){
+		List<AgreeType> agreetype = utilserviceimpl.getAgreeType();
+		return agreetype;
+	}
+
+	@RequestMapping("/getNetworkMatrixLevel" )
+	@ResponseBody
+	public List<NetworkMatrixLevel> callNetworkMatrixLevel(){
+		List<NetworkMatrixLevel> networkmatrixlevel = utilserviceimpl.getNetworkMatrixLevel();
+		return networkmatrixlevel;
+	}
+
+	@RequestMapping("/getBrokeragePlatform" )
+	@ResponseBody
+	public List<BrokeragePlatform> callBrokeragePlatform(){
+		List<BrokeragePlatform> brokerageplatform = utilserviceimpl.getBrokeragePlatform();
+		return brokerageplatform;
+	}
+
+	@RequestMapping("/getOperationalReview" )
+	@ResponseBody
+	public List<OperationalReview> callOperationalReview(){
+		List<OperationalReview> operationalreview = utilserviceimpl.getOperationalReview();
+		return operationalreview;
+	}
+
+	@RequestMapping("/getMFProfileII" )
+	@ResponseBody
+	public List<MFProfileII> callMFProfileII(){
+		List<MFProfileII> mfprofileii = utilserviceimpl.getMFProfileII();
+		return mfprofileii;
+	}
+
+	@RequestMapping("/getPosFileSched" )
+	@ResponseBody
+	public List<PosFileSched> callPosFileSched(){
+		List<PosFileSched> posfilesched = utilserviceimpl.getPosFileSched();
+		return posfilesched;
+	}
+
+	@RequestMapping("/getPricingSource" )
+	@ResponseBody
+	public List<PricingSource> callPricingSource(){
+		List<PricingSource> pricingsource = utilserviceimpl.getPricingSource();
+		return pricingsource;
+	}
+
+	@RequestMapping("/getTA2000SubFirmType" )
+	@ResponseBody
+	public List<TA2000SubFirmType> callTA2000SubFirmType(){
+		List<TA2000SubFirmType> ta2000subfirmtype = utilserviceimpl.getTA2000SubFirmType();
+		return ta2000subfirmtype;
+	}
+
+}

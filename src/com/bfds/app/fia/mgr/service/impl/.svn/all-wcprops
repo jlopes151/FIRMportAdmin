@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/src/!svn/ver/10765/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl
+END
+FundServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/src/!svn/ver/8988/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/FundServiceImpl.java
+END
+BranchServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/src/!svn/ver/9397/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/BranchServiceImpl.java
+END
+FirmServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/src/!svn/ver/10870/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/FirmServiceImpl.java
+END
+FrmFndAndClsAgreServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/FrmFndAndClsAgreServiceImpl.java
+END
+FundAndClassServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/FundAndClassServiceImpl.java
+END
+AgreementServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/src/!svn/ver/9397/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/AgreementServiceImpl.java
+END
+AlertServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/src/!svn/ver/10492/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/AlertServiceImpl.java
+END
+UtilServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/src/!svn/ver/10765/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/UtilServiceImpl.java
+END
+ContactsServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/src/!svn/ver/10498/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/ContactsServiceImpl.java
+END
+ExceptionsServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/src/!svn/ver/9307/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/ExceptionsServiceImpl.java
+END
+EventServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/src/!svn/ver/10506/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/EventServiceImpl.java
+END
+RepServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/RepServiceImpl.java
+END
+MgmtCoServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/src/!svn/ver/9965/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/MgmtCoServiceImpl.java
+END
+FirmAndMgmtCoServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/src/!svn/ver/10121/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/FirmAndMgmtCoServiceImpl.java
+END
+TransmissionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/src/!svn/ver/9397/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/impl/TransmissionServiceImpl.java
+END

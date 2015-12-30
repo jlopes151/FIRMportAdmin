@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/src/!svn/ver/10769/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers
+END
+FundMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/src/!svn/ver/9965/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/FundMapper.java
+END
+BranchMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/src/!svn/ver/9965/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/BranchMapper.java
+END
+FirmMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/src/!svn/ver/10870/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/FirmMapper.java
+END
+FrmFndAndClsAgreMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/FrmFndAndClsAgreMapper.java
+END
+FundAndClassMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/FundAndClassMapper.java
+END
+AgreementMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/src/!svn/ver/9965/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/AgreementMapper.java
+END
+AlertMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/src/!svn/ver/10555/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/AlertMapper.java
+END
+UtilMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/src/!svn/ver/10765/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/UtilMapper.java
+END
+ContactsMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/src/!svn/ver/10498/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/ContactsMapper.java
+END
+ExceptionsMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/src/!svn/ver/9965/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/ExceptionsMapper.java
+END
+EventMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/src/!svn/ver/10506/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/EventMapper.java
+END
+RepMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/src/!svn/ver/9307/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/RepMapper.java
+END
+MgmtCoMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/src/!svn/ver/9965/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/MgmtCoMapper.java
+END
+FirmAndMgmtCoMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/src/!svn/ver/10121/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/FirmAndMgmtCoMapper.java
+END
+TransmissionMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/src/!svn/ver/9965/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/mappers/TransmissionMapper.java
+END

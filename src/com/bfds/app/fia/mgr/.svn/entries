@@ -1,0 +1,49 @@
+10
+
+dir
+10785
+http://bfdevsvn/svn/src/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr
+http://bfdevsvn/svn/src
+
+
+
+2012-04-21T19:22:00.942255Z
+10785
+jlopes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cca4d95e-339c-ef46-959f-8352b15e4cd7
+
+model
+dir
+
+service
+dir
+
+config
+dir
+
+mappers
+dir
+
+security
+dir
+
+annotations
+dir
+
+web
+dir
+

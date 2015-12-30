@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/src/!svn/ver/10765/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service
+END
+ContactsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/src/!svn/ver/10498/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/ContactsService.java
+END
+EventService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/src/!svn/ver/10506/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/EventService.java
+END
+ExceptionsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/src/!svn/ver/9307/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/ExceptionsService.java
+END
+MgmtCoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/src/!svn/ver/9965/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/MgmtCoService.java
+END
+RepService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/RepService.java
+END
+FirmAndMgmtCoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/src/!svn/ver/10121/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/FirmAndMgmtCoService.java
+END
+TransmissionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/src/!svn/ver/9397/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/TransmissionService.java
+END
+FundService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/src/!svn/ver/8987/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/FundService.java
+END
+FirmService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/src/!svn/ver/10870/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/FirmService.java
+END
+BranchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/src/!svn/ver/9397/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/BranchService.java
+END
+FrmFndAndClsAgreService.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/FrmFndAndClsAgreService.java
+END
+FundAndClassService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/FundAndClassService.java
+END
+AlertService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/src/!svn/ver/10490/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/AlertService.java
+END
+AgreementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/src/!svn/ver/9397/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/AgreementService.java
+END
+UtilService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/src/!svn/ver/10765/trunk/FIRMportAdmin/src/com/bfds/app/fia/mgr/service/UtilService.java
+END

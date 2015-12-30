@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0"
+ xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee           http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+ <display-name>FIRMportAdmin</display-name>
+ <servlet>
+  <servlet-name>fia_mgr</servlet-name>
+  <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  <load-on-startup>1</load-on-startup>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>fia_mgr</servlet-name>
+  <url-pattern>/</url-pattern>
+ </servlet-mapping>
+ 
+ <resource-ref>
+	<description>JDBC driver class name</description>
+	<res-ref-name>jdbcDriverClassName</res-ref-name>
+	<res-type>java.lang.String</res-type>
+	<res-auth>Container</res-auth>
+ </resource-ref>
+ <resource-ref>
+    <description>JDBC URL</description>
+    <res-ref-name>jdbcUrl</res-ref-name>
+    <res-type>java.lang.String</res-type>
+    <res-auth>Container</res-auth>
+ </resource-ref>
+ <resource-ref>
+    <description>JDBC user name</description>
+    <res-ref-name>jdbcUsername</res-ref-name>
+    <res-type>java.lang.String</res-type>
+    <res-auth>Container</res-auth>
+ </resource-ref>
+ <resource-ref>
+    <description>JDBC password</description>
+    <res-ref-name>jdbcPassword</res-ref-name>
+    <res-type>java.lang.String</res-type>
+    <res-auth>Container</res-auth>
+ </resource-ref>
+ 
+</web-app>

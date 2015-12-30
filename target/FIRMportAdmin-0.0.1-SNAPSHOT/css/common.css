@@ -1,0 +1,91 @@
+.bfdsmgrCpyWrt{
+	position:absolute;
+	top:740px;
+	left:50px;
+}
+.bfdsmgrTopDiv {
+    margin-top: 25px;
+}
+.bfdsmgrMainPageTable {
+    width: 75%;
+    margin: auto;
+    font-family: Verdana, Tahoma, sans-serif ;
+    font-size: 8pt;
+    background-color:#F3F3F3;
+}
+.bfdsmgrBody {
+    width: 75%;
+    margin: auto;
+}
+.bfdsmgrTabBody {
+    width: 90%;
+    margin: auto;
+}
+.bfdsmgrMgmtBody {
+    width: 100%;
+    margin: auto;
+}
+.bfdsmgrFirmMgmtBody {
+    width: 130%;
+    margin: auto;
+}
+.bfdsmgrCenter {
+    text-align:center;
+}
+.bfdsmgrText {
+    font-family: Verdana, Tahoma, sans-serif ;
+    font-size: 8pt;
+}
+.bfdsmgrBoldText {
+    font-weight: bold;
+}
+.bfdsmgrSmallItalicizedText {
+    font-family: Verdana, Tahoma, sans-serif ;
+    font-size: 8pt;
+    font-style: italic;
+}
+.bfdsmgrTable {
+}
+.gridRowOdd {
+    background-color:#F3F3F3;
+}
+.gridRowHighlight {
+    background-color:#ADD8E6;
+}
+.bfdsHidden{
+    display:none;
+}
+.bfdsShow{
+    display:;
+}
+.bfdsButton{
+    text-align:center;
+}
+.bfdsRequired{
+    color:red;
+}
+.bfdsActiveFalse{
+    font-style:italic;
+}
+h1 {
+    font-size: 14pt;
+    margin: auto;
+}
+/* Overrides for FlexBox widget */
+.ffb .content .row {
+    padding: 2px;
+    height: auto !important;
+}
+.invalidInput {
+    background-color: #ffff99;
+}
+.pagedGridLightText {
+    color: #ACACAC !important;
+}
+.pagedGridBorder{
+    border-collapse: collapse;
+    margin: auto;
+}
+.centerMessages {
+	text-align:center;	
+}

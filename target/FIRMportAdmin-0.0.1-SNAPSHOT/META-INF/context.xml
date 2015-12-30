@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file contains the context information for the web application. -->
+<!-- The contents of this file will be loaded by the web application     -->
+<!-- server (Tomcat). -->
+<Context>
+
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+	
+    <!-- Uncomment this to disable session persistence across Tomcat restarts -->
+    <!--
+    <Manager pathname="" />
+    -->
+
+    <!-- Uncomment this to enable Comet connection tacking (provides events
+         on session expiration as well as webapp lifecycle) -->
+    <!--
+    <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" />
+    -->
+
+    <!-- FIA Profile related resources -->
+    <ResourceLink global="fiaprofile/jdbc/driverClassName" 
+                  name="jdbcDriverClassName" 
+                  type="java.lang.String" />
+
+    <ResourceLink global="fiaprofile/jdbc/url" 
+                  name="jdbcUrl" 
+                  type="java.lang.String" />
+
+    <ResourceLink global="fiaprofile/jdbc/username" 
+                  name="jdbcUsername" 
+                  type="java.lang.String" />
+
+    <ResourceLink global="fiaprofile/jdbc/password" 
+                  name="jdbcPassword" 
+                  type="java.lang.String" />
+
+</Context>

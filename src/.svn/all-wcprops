@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/10785/trunk/FIRMportAdmin/src
+END
+jdbc_prod.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/src/!svn/ver/10430/trunk/FIRMportAdmin/src/jdbc_prod.properties
+END
+messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/src/!svn/ver/8845/trunk/FIRMportAdmin/src/messages_en.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/src/!svn/ver/9701/trunk/FIRMportAdmin/src/log4j.properties
+END
+jdbc_dev.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/src/!svn/ver/10677/trunk/FIRMportAdmin/src/jdbc_dev.properties
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/src/!svn/ver/10677/trunk/FIRMportAdmin/src/jdbc.properties
+END
+jdbc_qa.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/src/!svn/ver/9972/trunk/FIRMportAdmin/src/jdbc_qa.properties
+END

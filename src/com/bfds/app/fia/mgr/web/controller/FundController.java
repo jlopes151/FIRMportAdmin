@@ -1,0 +1,186 @@
+package com.bfds.app.fia.mgr.web.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.log4j.Logger;
+
+import com.bfds.app.fia.mgr.service.impl.FundServiceImpl;
+import com.bfds.app.fia.mgr.model.Fund;
+import com.bfds.app.fia.mgr.model.MgmtCo;
+import com.bfds.app.fia.mgr.model.SearchValidator;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+@Controller
+public class FundController extends FIRMportAdminController {
+	
+	private static Logger logger;
+
+	private final FundServiceImpl fundserviceimpl;	
+	private SearchValidator sv;
+
+	@Autowired
+	public FundController(FundServiceImpl fundserviceimpl){
+		this.fundserviceimpl = fundserviceimpl;
+	}
+	
+	/*
+	 * 
+	 */
+	@RequestMapping(value="/setFundRowToEdit", method=RequestMethod.POST)
+	@ResponseBody
+	public SearchValidator setShortName(HttpServletRequest request){
+
+		HttpSession session = request.getSession();
+		session.setAttribute("FUND_ID", (String)request.getParameter("fund_id"));
+		SearchValidator sv = new SearchValidator();
+		sv.setTrue_false(true);
+
+		return sv;
+	}
+
+	@RequestMapping("/viewFundsPage")
+	public String callViewFunds(){
+		return "viewFundsPage";
+	}
+	
+	@RequestMapping("/showAllFunds" )
+	@ResponseBody
+	public List<Fund> callShowAllFunds(HttpServletRequest request){
+		logger.info("Getting all those Funds");
+		List<Fund> fund = fundserviceimpl.doFindAllFund("%"); 
+		return fund;
+	}
+
+	/*
+	 * Store the new Fund data
+	 */
+	@RequestMapping("/addFundPage")
+	public String callAddFund(){
+		return "addFundPage";
+	}
+	
+	/*
+	 * Edit the selected Fund
+	 */
+	@RequestMapping("/editFundPage")
+	public String callEditFund(){
+		return "editFundPage";
+	}
+	
+	/*
+	 * Store the new Fund data
+	 */
+	@RequestMapping("/addFund")
+	@ResponseBody
+	public SearchValidator callAddFund(HttpServletRequest request){
+
+		sv = new SearchValidator();
+/*		
+		@RequestParam("mgmt_co_id") String mgmt_co_id,
+		@RequestParam("fund_lgl_nm") String fund_lgl_nm,
+		@RequestParam("fund_tax_id") String fund_tax_id	
+		Fund fund = new Fund();
+		// the id had been pulled by a search of the company
+		int mgmtco_id = Integer.parseInt(mgmt_co_id);
+		
+		try{
+			fund.setMgmt_co_id(mgmtco_id);
+			fund.setFund_lgl_nm(URLDecoder.decode(fund_lgl_nm, "UTF-8"));			
+			fund.setFund_tax_id(URLDecoder.decode(fund_tax_id, "UTF-8"));
+			request.getRemoteUser()		
+			fund.setLst_updt_userid(this.getUserName(request));
+			fund.setLst_updt_dtm(getFormatedNowDate());
+			
+			this.fundserviceimpl.insertFund(fund);
+		}catch(UnsupportedEncodingException ue){
+			logger.info("The bfdsDecoder has thrown " + ue.getMessage());
+		}
+*/	
+		sv.setTrue_false(true);
+
+		return sv;
+	}
+	
+	/*
+	 * deleting a record, there isn't a jsp that gets loaded, but Spring tries to load
+	 * a page that corresponds to the url, to handle this a status object is returned and
+	 * handled in the the ajax success 
+	 */
+	@RequestMapping("/deleteFund")
+	@ResponseBody
+	public SearchValidator callDeleteFund(){
+
+		sv = new SearchValidator();
+		/*
+		 *  the short name is unique, the user must select a record for delete
+		 */
+		//this.fundserviceimpl.deleteFund(_fund_id);
+		
+		sv.setTrue_false(true);
+
+		return sv;
+	}
+	
+	@RequestMapping("/doCoSrch")
+	@ResponseBody
+	public MgmtCo callDoCoSrch(@RequestParam("system") String system,
+							   @RequestParam("company") String company) {
+
+		List<MgmtCo> mgmtco = this.fundserviceimpl.doCoSrch(system, company);
+		
+		return (mgmtco.size() > 0) ? mgmtco.get(0) : null;
+	}
+	
+	/*
+	 * Get the Fund data to edit
+	 */
+	@RequestMapping("/editFund")
+	@ResponseBody
+	public Fund editFunds(HttpServletRequest request){
+		HttpSession session = request.getSession();
+		int _fund_id = Integer.parseInt((String)session.getAttribute("FUND_ID"));
+		List<Fund> funds = fundserviceimpl.doFindSingleFund(_fund_id); 
+		
+		return (funds.size() > 0) ? funds.get(0) : null;		
+	}
+			
+	/*
+	 * 
+	 */
+	@RequestMapping("/updateFund")
+	@ResponseBody
+	public SearchValidator callUpdateFund(@RequestParam("mgmt_co_id") String mgmt_co_id,
+							   			  @RequestParam("fund_lgl_nm") String fund_lgl_nm,
+							   			  @RequestParam("fund_tax_id") String fund_tax_id							
+							  			  ){		
+
+		sv = new SearchValidator();
+		Fund fund = new Fund();
+		int mgmtco_id = Integer.parseInt(mgmt_co_id);
+		
+		fund.setMgmt_co_id(mgmtco_id);
+		fund.setFund_lgl_nm(fund_lgl_nm);
+		fund.setFund_tax_id(fund_tax_id);
+//		request.getRemoteUser()		
+//		fund.setLst_updt_userid(this.getUserName(request));
+		fund.setLst_updt_dtm(getFormatedNowDate());
+		this.fundserviceimpl.insertFund(fund);
+		
+		fundserviceimpl.updateFund(fund);
+		
+		sv.setTrue_false(true);
+
+		return sv;
+	}
+	
+}

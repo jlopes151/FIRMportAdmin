@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/src/!svn/ver/10782/trunk/FIRMportAdmin/WebContent/WEB-INF/jsp/includes
+END
+taglibs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/src/!svn/ver/8846/trunk/FIRMportAdmin/WebContent/WEB-INF/jsp/includes/taglibs.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/src/!svn/ver/8846/trunk/FIRMportAdmin/WebContent/WEB-INF/jsp/includes/header.jsp
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/src/!svn/ver/10555/trunk/FIRMportAdmin/WebContent/WEB-INF/jsp/includes/footer.jsp
+END
+javascriptCss.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/src/!svn/ver/10782/trunk/FIRMportAdmin/WebContent/WEB-INF/jsp/includes/javascriptCss.jsp
+END

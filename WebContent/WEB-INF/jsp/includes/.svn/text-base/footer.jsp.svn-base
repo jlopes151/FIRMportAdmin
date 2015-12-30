@@ -1,0 +1,1 @@
+<div class="bfdsmgrSmallItalicizedText bfdsmgrCenter bfdsmgrCpyWrt" title="Release 1.21">Copywrite &\#169; BFDS 2011.</div>

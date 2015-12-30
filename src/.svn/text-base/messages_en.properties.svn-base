@@ -1,0 +1,245 @@
+#
+# header properties
+#
+header.appTitle=Financial Intermediary Administration Profile
+header.label.managementCompany=Management Company:
+header.linkHelp=HELP
+#
+# footer properties
+#
+label.copyright=Copyright &\#169; 2011 Boston Financial Data Services
+link.backToTop=&#8593; Back to top
+tooltip.backToTop=Back to the top
+#
+# home screen
+#
+home.label.banner.focusFirms=Focus Firms
+home.label.banner.calendar=Calendar
+home.label.banner.alerts=ALERTS
+home.label.banner.payToPlay=Pay To Play
+home.label.banner.businessIntelligence=Business Intelligence
+home.label.payToPlay.policy=Policy
+home.label.payToPlay.accounts=Accounts
+home.link.banner.settings=Settings
+home.link.banner.editList=Edit List
+home.link.footer.archives=Archives
+home.link.footer.newQuery=New Query
+home.link.footer.viewAll=View All
+home.header.abbrev.sunday=S
+home.header.abbrev.monday=M
+home.header.abbrev.tuesday=T
+home.header.abbrev.wednesday=W
+home.header.abbrev.thursday=T
+home.header.abbrev.friday=F
+home.header.abbrev.saturday=S
+home.calendar.event.alertMe=Alert Me
+home.label.piechart.title=% of Overall Assets
+home.label.piechart.type=pie
+home.label.piechart.name=Overall Intermediary share
+#
+# alert details screen
+#
+homeAlertDetails.banner.name=&#160;&#160;Alert
+homeAlertDetails.label.profiles=Profile(s):
+#
+# calendar event details screen
+#
+homeCalendarEventDetails.banner.name=&#160;&#160;Calendar Event
+homeCalendarEventDetails.label.profiles=Profile(s):
+#
+# focus firms (top 10) screen
+#
+focusFirmsTopTen.label.focusFirms=Focus Firms (Top 10)
+focusFirmsTopTen.label.availableFirms=Available Firms
+focusFirmsTopTen.btn.save=Save
+#
+# business intelligence reports (top 10) screen
+#
+businessIntelligenceReportsTopTen.label.focusBusinessIntelligenceReports=Business Intelligence Reports (Top 10)
+businessIntelligenceReportsTopTen.label.availableBusinessIntelligenceReports=Available Business Intelligence Reports
+businessIntelligenceReportsTopTen.btn.save=Save
+#
+# intermediary overviews (general)
+#
+intermediaryOverviews.banner.refineYourSearch=Refine Your Search
+intermediaryOverviews.label.list.title.firmTypes=Firm Types
+intermediaryOverviews.label.list.title.shareholderServicingModel=Shareholder Servicing Model
+intermediaryOverviews.label.list.title.subAccountingPlatform=Sub Accounting Platform
+intermediaryOverviews.label.list.title.clearingFirm=Clearing Firm
+intermediaryOverviews.link.clearAll=Clear All
+intermediaryOverviews.link.export=Export
+intermediaryOverviews.link.print=Print
+intermediaryOverviews.btn.search=Search
+intermediaryOverivews.btn.compare=COMPARE
+intermediaryOverviews.label.view=View:
+intermediaryOverviews.label.compare=Compare:
+intermediaryOverviews.heading.table.firm=Firm
+intermediaryOverviews.heading.table.location=Location
+intermediaryOverviews.heading.table.dealerNum=Dealer #
+intermediaryOverviews.heading.table.compare=Compare
+intermediaryOverviews.option.twentyPerPage=20 per page
+intermediaryOverviews.option.fortyPerPage=40 per page
+intermediaryOverviews.option.eightyPerPage=80 per page
+intermediaryOverviews.text.dash=-
+intermediaryOverviews.text.of=of
+#
+# intermediary overviews comparison
+#
+intermediaryOverviewsComparison.title.section.operationalSummary=Operational Summary
+intermediaryOverviewsComparison.title.section.tradingAttributes=Trading Attributes
+intermediaryOverviewsComparison.link.export=Export
+intermediaryOverviewsComparison.link.print=Print
+#
+# contacts
+#
+contacts.banner.refineYourSearch=Refine Your Search
+contacts.label.list.title.category=Category
+contacts.label.list.title.location=Location
+contacts.label.list.title.intermediary=Intermediary
+contacts.label.city=City:
+contacts.label.sortBy=Sort by:
+contacts.label.view=View:
+contacts.label.zipCode=Zip:
+contacts.label.abbrev.phone=P:
+contacts.label.abbrev.cell=C:
+contacts.label.abbrev.fax=F:
+contacts.label.state=State:
+contacts.heading.contacts=Contacts
+contacts.link.clearAll=Clear All
+contacts.link.export=Export
+contacts.link.print=Print
+contacts.option.fivePerPage=5 per page
+contacts.option.tenPerPage=10 per page
+contacts.option.fifteenPerPage=15 per page
+contacts.option.twentyPerPage=20 per page
+contacts.option.ascending=Ascending
+contacts.option.descending=Descending
+contacts.text.dash=-
+contacts.text.of=of
+contacts.text.or=or
+contacts.btn.search=Search
+#
+# error properties
+#
+error.heading.errorsDetected=The following error(s) have been detected:
+error.btn.showHideDetails=Show/Hide Details
+error.label.details=Details:
+error.label.rootCause=Root Cause:
+error.label.colon=:
+error.msg.tryAgain=The problem that you are experiencing may be intermittent.<br />Please try your request again.  If the problem persists, please contact 3-HELP.
+#
+# intermediary overview
+#
+intermediaryOverview.label.banner.operationalsummary=Operational Summary
+intermediaryOverview.label.banner.tradingattributes=Trading Attributes
+intermediaryOverview.label.banner.openaccounts=Open Accounts
+intermediaryOverview.label.banner.matrixlevel=Matrix Level
+intermediaryOverview.label.banner.percentofoverallassets=% of Overall Assets:
+intermediaryOverview.label.banner.poundSign=#
+intermediaryOverview.label.banner.overallassets=Overall Assets:
+intermediaryOverview.label.banner.intermediary=Intermediary:
+intermediaryOverview.label.banner.other=Other:
+intermediaryOverview.label.link.edit=Edit
+intermediaryOverview.label.button.buttonedit=Edit
+
+#
+# intermediary contacts
+#
+intermediarycontacts.label.banner.operationalsummary=Operational Summary
+intermediarycontacts.label.banner.paytoplay=Pay To Play
+intermediarycontacts.label.banner.legalcontractualcontacts=Legal/Contractual Contacts
+intermediarycontacts.label.banner.pricing=Pricing
+intermediarycontacts.label.banner.billing=Billing
+intermediarycontacts.label.banner.commissions=Commissions
+intermediarycontacts.label.banner.compliance=Compliance
+intermediarycontacts.label.banner.22C-2=22C-2
+intermediarycontacts.label.banner.statementsprospectus&literature=Statements Prospectus & Literature
+intermediarycontacts.label.banner.seniortradingcontact=Senior Trading Contact
+
+#
+# intermediary event management
+#
+intermediaryeventmanagement.header.abbrev.sunday=S
+intermediaryeventmanagement.header.abbrev.monday=M
+intermediaryeventmanagement.header.abbrev.tuesday=T
+intermediaryeventmanagement.header.abbrev.wednesday=W
+intermediaryeventmanagement.header.abbrev.thursday=T
+intermediaryeventmanagement.header.abbrev.friday=F
+intermediaryeventmanagement.header.abbrev.saturday=S
+intermediaryeventmanagement.label.banner.options=Options
+intermediaryeventmanagement.label.banner.addanevent=Add an Event
+intermediaryeventmanagement.label.banner.calendarsettings=Calendar Settings
+intermediaryeventmanagement.label.banner.search=Search
+intermediaryeventmanagement.label.banner.from=From:
+intermediaryeventmanagement.label.banner.to=To:
+intermediaryeventmanagement.label.banner.intermediary=Intermediary:
+intermediaryeventmanagement.label.banner.eventtype=Event Type:
+intermediaryeventmanagement.label.button.buttonsubmit=Submit
+intermediaryeventmanagement.link.header.calendarOptionDay=Day
+intermediaryeventmanagement.link.header.calendarOptionWeek=Week
+intermediaryeventmanagement.link.header.calendarOptionMonth=Month
+intermediaryeventmanagement.link.header.calendarOptionList=List
+intermediaryeventmanagement.link.header.export=Export
+intermediaryeventmanagement.link.header.print=Print
+
+#
+# intermediary alerts
+#
+intermediaryalerts.label.banner.search=Search
+intermediaryalerts.label.search.from=From:
+intermediaryalerts.label.search.to=To:
+intermediaryalerts.label.searchemailalert.intermediary=Intermediary:
+intermediaryalerts.label.searchemailalert.alerttype=Alert Type:
+intermediaryalerts.label.emailalertoptions.email=Email:
+intermediaryalerts.label.button.buttonsubmit=Submit
+intermediaryalerts.label.button.emailalertoptions=Email Alert Options
+intermediaryalerts.label.header.view=View:
+intermediaryalerts.link.header.export=Export
+intermediaryalerts.link.header.print=Print
+intermediaryalerts.table.header.alert=Alert
+intermediaryalerts.table.header.alerttype=Alert Type
+intermediaryalerts.table.header.date=Date
+intermediaryalerts.table.header.documents=Documents
+#
+# field selection setup screens for Intermediary Overview
+#
+fieldsChosen.label.fields=New Order of Fields
+fieldsAvailable.label.availableFields=Available Fields
+fieldsAvailable.btn.save=Save 
+#
+# exceptions details screen
+#
+exceptionDetails.banner.name=&#160;&#160;Exceptions
+exceptionDetails.label.profiles=Profile(s):
+#
+#
+# Global properties 
+#
+global.header.abbrev.sunday=S
+global.header.abbrev.monday=M
+global.header.abbrev.tuesday=T
+global.header.abbrev.wednesday=W
+global.header.abbrev.thursday=T
+global.header.abbrev.friday=F
+global.label.button.buttonedit=Edit
+global.label.banner.operationalsummary=Operational Summary
+global.label.banner.paytoplay=Pay To Play
+global.label.banner.addanevent=Add an Event
+global.label.banner.calendarsettings=Calendar Settings
+global.label.banner.search=Search
+global.label.banner.from=From:
+global.label.banner.to=To:
+global.label.button.buttonsubmit=Submit
+global.label.banner.eventtype=Event Type:
+global.link.header.calendarOptionDay=Day
+global.link.header.calendarOptionWeek=Week
+global.link.header.calendarOptionMonth=Month
+global.link.header.calendarOptionList=List
+global.link.header.export=Export
+global.link.header.print=Print
+global.table.header.alert=Alert
+global.table.header.alerttype=Alert Type
+global.table.header.date=Date
+global.table.header.document=Document
+global.label.banner.tradeAttributes=Trade Attributes
+global.label.banner.operationalSummary=Operational Summary

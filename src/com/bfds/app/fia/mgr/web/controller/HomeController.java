@@ -1,0 +1,101 @@
+package com.bfds.app.fia.mgr.web.controller;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+//import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bfds.app.fia.mgr.service.impl.FirmServiceImpl;
+import com.bfds.app.fia.mgr.model.Firm;
+
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@Controller
+public class HomeController extends FIRMportAdminController {
+	
+	private static Logger logger;
+
+	public HomeController(){
+	}
+	
+	@RequestMapping("/")
+	public String callRoot(HttpServletRequest req, HttpServletResponse res){
+		return (this.processUserGroups(req).isTrue_false()) ? "mainPage" : "noaccessPage";
+	}
+
+	@RequestMapping("/mainPage")
+	public String callMainPage(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "mainPage" : "noaccessPage";
+	}
+
+	@RequestMapping("/alertsNav")
+	public String callAlertsNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "alertsNav" : "noaccessPage";
+	}
+
+	@RequestMapping("/eventsNav")
+	public String callEventNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "eventsNav" : "noaccessPage";
+	}
+
+	@RequestMapping("/firmsNav")
+	public String callFirmsNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "firmsNav" : "noaccessPage";
+	}
+
+	@RequestMapping("/mgmtcoNav")
+	public String callMgmtCoNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "mgmtcoNav" : "noaccessPage";
+	}
+
+	@RequestMapping("/firmMgmtcoNav")
+	public String callFirmMgmtCoNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "firmMgmtcoNav" : "noaccessPage";
+	}
+
+	@RequestMapping("/exceptionNav")
+	public String callExceptionsNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "exceptionNav" : "noaccessPage";
+	}
+	
+	@RequestMapping("/contactsNav")
+	public String callContactsNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "contactsNav" : "noaccessPage";
+	}
+	
+	@RequestMapping("/fundsNav")
+	public String callFundsNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "fundsNav" : "noaccessPage";
+	}
+	
+	@RequestMapping("/repNav")
+	public String callRepNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "repNav" : "noaccessPage";
+	}
+	
+	@RequestMapping("/branchNav")
+	public String callBranchNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "branchNav" : "noaccessPage";
+	}
+	
+	@RequestMapping("/agreeNav")
+	public String callAgreementNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "agreeNav" : "noaccessPage";
+	}
+	
+	@RequestMapping("/transNav")
+	public String callTransmissionNav(HttpServletRequest req){
+		return (this.processUserGroups(req).isTrue_false()) ? "transNav" : "noaccessPage";
+	}
+		
+	@RequestMapping("/getUserName")
+	public String getUserName(HttpServletRequest req){
+		return (req.getRemoteUser());
+	}
+		
+}

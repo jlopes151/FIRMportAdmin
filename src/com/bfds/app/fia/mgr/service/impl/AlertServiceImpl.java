@@ -1,0 +1,107 @@
+package com.bfds.app.fia.mgr.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.bfds.app.fia.mgr.mappers.AlertMapper;
+import com.bfds.app.fia.mgr.model.Alert;
+import com.bfds.app.fia.mgr.model.AlertMgmtCoXref;
+import com.bfds.app.fia.mgr.model.AlertTypes;
+import com.bfds.app.fia.mgr.model.Firm;
+import com.bfds.app.fia.mgr.model.MgmtCo;
+import com.bfds.app.fia.mgr.service.AlertService;
+
+@Scope("prototype")
+@Service
+public class AlertServiceImpl implements AlertService {
+	
+	private AlertMapper alertmapper;
+	
+	@Autowired
+	public AlertServiceImpl(AlertMapper alertmapper){
+		this.alertmapper = alertmapper;
+	}
+	
+	/*
+	 * This method is to be called from any controller that
+	 * needs to delete an Alert
+	 */
+	public void handleAlertDelete(int _alert_id){
+		
+		// delete all alert, company xref first
+		deleteAlertMgmtCoXrefByAlertId(_alert_id);
+		// then delete the alert
+		deleteAlert(_alert_id);
+		
+		// for now void is returned
+		return;
+	}
+	
+	public List<Alert> doFindAllAlert(){
+		return this.alertmapper.findAllAlert(); 
+	}
+	
+	public List<Alert> doFindSingleAlert(int alert_id){
+		return this.alertmapper.findSingleAlert(alert_id); 
+	}
+	
+	public List<Alert> doFindAlertByTitle(String alert_title){
+		return this.alertmapper.findAlertByTitle(alert_title); 
+	}
+
+	public List<AlertMgmtCoXref> doFindAlertMgmtCoXref(int alert_id){
+		return this.alertmapper.findAllAlertMgmtCoIds(alert_id); 
+	}
+	
+	public List<AlertTypes> getAlertTypes(){
+		return this.alertmapper.getAlertTypes(); 
+	}
+	
+	public List<Firm> doFindSingleFirm(String shortName){
+		return this.alertmapper.findSingleFirm(shortName); 
+	}
+	
+	public List<MgmtCo> doFindSingleMgmtCo(String shortName){
+		return this.alertmapper.findSingleMgmtCo(shortName); 
+	}
+	
+	@Transactional
+	public void insertAlert(Alert alert){
+		this.alertmapper.insertAlert(alert);
+	}
+
+	@Transactional
+	public void insertAlertMgmtCoXref(int alert_id, int mgmt_co_id, String lst_updt_userid){
+		this.alertmapper.insertAlertMgmtCoXref(alert_id, mgmt_co_id, lst_updt_userid);
+	}
+
+	@Transactional
+	public void deleteAlertMgmtCoXrefByAlertId(int alert_id){
+		this.alertmapper.deleteAlertMgmtCoXrefByAlertId(alert_id);
+	}
+	
+	@Transactional
+	public void deleteAlertMgmtCoXrefByMgmtCoId(int mgmt_co_id){
+		this.alertmapper.deleteAlertMgmtCoXrefByMgmtCoId(mgmt_co_id);
+	}
+	
+	@Transactional
+	public void deleteAlertMgmtCoXrefByAlertIdAndMcId(int alert_id, int mgmt_co_id){
+		this.alertmapper.deleteAlertMgmtCoXrefByAlertIdAndMcId(alert_id, mgmt_co_id);
+	}
+	
+	@Transactional
+	public void deleteAlert(int alert_id){
+		this.alertmapper.deleteAlert(alert_id);
+	}
+	
+	@Transactional
+	public void updateAlert(Alert alert){
+		this.alertmapper.updateAlert(alert);
+	}
+	
+}
